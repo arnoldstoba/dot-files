@@ -11,15 +11,15 @@
 . /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
 
 # function imports
-. ~/dotfiles/.functions/extract
-. ~/dotfiles/.functions/localip
-. ~/dotfiles/.functions/server
-. ~/dotfiles/.functions/whois
-. ~/dotfiles/.functions/mkdir
+. ~/.functions/extract
+. ~/.functions/localip
+. ~/.functions/server
+. ~/.functions/whois
+. ~/.functions/mkdir
 
 # alias imports
-. ~/dotfiles/.aliases/aliases
+. ~/.aliases/aliases
 
 # configuration imports
-. ~/dotfiles/.conf/path
-. ~/dotfiles/.conf/zsh
+. ~/.conf/path
+. ~/.conf/zsh
