@@ -13,9 +13,9 @@ alias la="tree -l -L 1 -a -C -u -p --si -D --dirsfirst"
 alias ld="tree -l -L 1 -a -D -r -C"
 
 # editor shortcuts
-alias a ="atom"
-alias v ="vim"
+alias a="atom"
+alias v="vim"
 
 # general terminal shortcuts
-alias o ="open"
-alias qq ="exit"
+alias o="open"
+alias qq="exit"
