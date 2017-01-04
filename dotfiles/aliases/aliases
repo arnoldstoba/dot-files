@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+# base aliases
+# basic bash aliases (using osx)
+# from: paulirish/dotfiles
+# from: holman/dotfiles
+
+# tree/ls shortcuts
+# requires `brew install tree`
+alias l="tree -l -L 1 -a -C --dirsfirst"
+alias ll="tree -l -L 1 -a -C --dirsfirst -p"
+alias la="tree -l -L 1 -a -C -u -p --si -D --dirsfirst"
+alias ld="tree -l -L 1 -a -D -r -C"
+
+# editor shortcuts
+alias a ="atom"
+alias v ="vim"
+
+# general terminal shortcuts
+alias o ="open"
+alias qq ="exit"

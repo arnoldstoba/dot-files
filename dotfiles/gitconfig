@@ -1,0 +1,38 @@
+[user]
+	name = Arnold Stoba
+	email = aa@shopware.com
+[github]
+    user = arnoldstoba
+[credential]
+    username = arnoldstoba
+[core]
+	editor = vim
+	filemode = false
+    excludesfile = /Users/arnoldstoba/.gitignore
+    autocrlf = input
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[alias]
+    s = status
+    l = log --format='%C(cyan)%h%Creset %s %Cgreen(%cr) %C(yellow)<%an>%Creset%C(yellow)' --no-merges
+    co = checkout
+    d = diff
+    b = branch
+    rv = remote -v
+[color]
+    ui = always
+[color "diff"]
+    meta = yellow bold
+    commit = green bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[color "branch"]
+    current = green
+    local = white
+    remote = white reverse
+[help]
+    autocorrect = 1

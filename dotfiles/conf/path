@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# add ellipsis package manager to $PATH
+export PATH=~/.ellipsis/bin:$PATH
+
+# rupa/z brew installation path
+# required: `brew install z`
+. `brew --prefix`/etc/profile.d/z.sh
+
+# add MAMP bin/php to $PATH
+# required: mamp installation with global php
+PATH="/Applications/MAMP/Library/bin:$PATH"
+PATH="/Applications/MAMP/bin/php/php5.6.10/bin:$PATH"

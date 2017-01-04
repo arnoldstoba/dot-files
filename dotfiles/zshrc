@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+# .zshrc file
+# contains all function/alias imports
+# bashrc version of the zsh shell
+# to provide a better overview, the files are included "manually"
+# (prob at cost of some performance)
+
+# include `rupa/z` shell script
+# requires `brew install z`
+. /usr/local/Cellar/z/1.9/etc/profile.d/z.sh
+
+# function imports
+. ~/dotfiles/.functions/extract
+. ~/dotfiles/.functions/localip
+. ~/dotfiles/.functions/server
+. ~/dotfiles/.functions/whois
+. ~/dotfiles/.functions/mkdir
+
+# alias imports
+. ~/dotfiles/.aliases/aliases
+
+# configuration imports
+. ~/dotfiles/.conf/path
+. ~/dotfiles/.conf/zsh

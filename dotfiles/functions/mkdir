@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+# md function shortcut
+# Create a new directory and enter it
+# from: github.com/paulirish/dotfiles
+#
+# usage:
+# md lorem
+# => entrs /lorem
+
+function md() {
+	mkdir -p "$@" && cd "$@"
+}
