@@ -8,8 +8,7 @@
 # tree/ls shortcuts
 # requires `brew install tree`
 alias l="tree -l -L 1 -a -C --dirsfirst"
-alias ll="tree -l -L 1 -a -C --dirsfirst -p"
-alias la="tree -l -L 1 -a -C -u -p --si -D --dirsfirst"
+alias ll="tree -l -L 1 -a -C -u -p --si -D --dirsfirst"
 alias ld="tree -l -L 1 -a -D -r -C"
 
 # editor shortcuts

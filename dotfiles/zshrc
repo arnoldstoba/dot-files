@@ -17,9 +17,9 @@
 . ~/.functions/whois
 . ~/.functions/mkdir
 
+# configuration imports
+. ~/.conf/zsh
+. ~/.conf/path
+
 # alias imports
 . ~/.aliases/aliases
-
-# configuration imports
-. ~/.conf/path
-. ~/.conf/zsh
